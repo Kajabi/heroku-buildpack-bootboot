@@ -1,0 +1,12 @@
+repos/*
+.DS_Store
+vendor/bundler/*
+vendor/bundle/*
+.env
+.ruby-version
+buildpacks/*
+.anvil/
+tmp/*.log
+log/*.log
+tmp
+.bundle
