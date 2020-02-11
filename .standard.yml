@@ -1,4 +1,4 @@
 parallel: true
 ignore:
   - "vendor/**/*"
-  - "repos/**/*"
+ruby_version: 2.3

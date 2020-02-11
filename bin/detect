@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# We don't want to look for Gemfile_next.lock because we can't inform the user
+# to add it in `detect`, instead we will check for the lockfile in
+# NoLockfileNext.
+if [ -f "$1/Gemfile" ]; then
+  echo "Bootboot 👢👢"
+  exit 0
+else
+  echo "no"
+  exit 1
+fi

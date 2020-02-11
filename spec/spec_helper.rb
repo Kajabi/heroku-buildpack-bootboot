@@ -1,6 +1,9 @@
+require_relative "../config/environment"
+
 require "rspec/core"
 require "rspec/retry"
 require "hatchet"
+
 require "language_pack/shell_helpers"
 
 ENV["RACK_ENV"] = "test"

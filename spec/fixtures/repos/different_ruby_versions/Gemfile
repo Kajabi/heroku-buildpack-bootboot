@@ -1,0 +1,7 @@
+# frozen_string_literal: true
+
+if ENV["DEPENDENCIES_NEXT"]
+  ruby "2.5.7"
+else
+  ruby "2.4.9"
+end
