@@ -1,3 +1,5 @@
+🚨 **This buildpack is currently alpha software and relies on an unsupported fork of heroku-buildpack-ruby** 🚨
+
 # Heroku Buildpack for Bootboot
 This is a [Heroku Buildpack](http://devcenter.heroku.com/articles/buildpacks) for Ruby, Rack, and Rails apps, adding [bootboot](https://github.com/Shopify/bootboot) support on top of the [official Ruby buildpack](https://github.com/heroku/heroku-buildpack-ruby).
 
