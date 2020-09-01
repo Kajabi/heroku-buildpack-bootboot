@@ -112,6 +112,10 @@ module BootbootBuildpack
       bundler.config_delete("bin")
     end
 
+    # Skip bundle_clean so the old gems are not removed
+    def bundle_clean(bundle_bin, env_vars)
+    end
+
     # Ruby#compile calls several methods that we want to just be no-ops
     [
       :check_for_bundle_config,
